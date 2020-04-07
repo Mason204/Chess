@@ -39,10 +39,10 @@ int Pieces::getY()
 
 Piece Pieces::getPiece()
 {
-	return Piece();
+	return piece;
 }
 
 Type Pieces::getColor()
 {
-	return Type();
+	return type;
 }

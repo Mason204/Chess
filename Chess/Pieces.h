@@ -2,7 +2,7 @@
 #define PIECES_H
 
 enum Piece { King, Queen, Bishop, Knight, Rook, Pawn, Empty };
-enum Type { Black, White, None };
+enum Type { Black, White, None, Option };
 
 class Pieces
 {
@@ -17,7 +17,7 @@ public:
 	Piece getPiece();
 	Type getColor();
 
-private:
+private:	
 	Piece piece;
 	Type type;
 	int x;

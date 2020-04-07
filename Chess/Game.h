@@ -10,10 +10,12 @@ public:
 	game();
 	~game();
 	void setup();
-	void PawnOptions(int x, int y);
+	void Pawn(int x, int y);
+	void PawnOptions(int x, int y, int C, Type color, int start);
 
 private:
-	board Game;
+	board* Game;
+	pawn pawnpiece;
 };
 
 #endif 
